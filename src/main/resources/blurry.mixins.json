@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "dev.draylar.blurry.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "ShaderEffectAccessor"
+  ],
+  "client": [
+    "GameRendererMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "blurry",
+  "version": "${version}",
+  "name": "Blurry",
+  "description": "",
+  "authors": [ ],
+  "contact": { },
+  "license": "MIT",
+  "icon": "assets/blurry/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "dev.draylar.blurry.Blurry"
+    ]
+  },
+  "mixins": [
+    "blurry.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.14",
+    "fabric": "*",
+    "minecraft": "1.19.2"
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "targets": [
+    "swap"
+  ],
+  "passes": [
+    {
+      "name": "kawase",
+      "intarget": "minecraft:main",
+      "outtarget": "swap",
+      "uniforms": [
+        {
+          "name": "Scale",
+          "values": [ 1.0 ]
+        },
+        {
+          "name": "FadeProgress",
+          "values": [ 1.0 ]
+        }
+      ]
+    },
+    {
+      "name": "kawase",
+      "intarget": "swap",
+      "outtarget": "minecraft:main",
+      "uniforms": [
+        {
+          "name": "Scale",
+          "values": [ 2.0 ]
+        },
+        {
+          "name": "FadeProgress",
+          "values": [ 1.0 ]
+        }
+      ]
+    },
+    {
+      "name": "kawase",
+      "intarget": "minecraft:main",
+      "outtarget": "swap",
+      "uniforms": [
+        {
+          "name": "Scale",
+          "values": [ 3.0 ]
+        },
+        {
+          "name": "FadeProgress",
+          "values": [ 1.0 ]
+        }
+      ]
+    },
+    {
+      "name": "kawase",
+      "intarget": "swap",
+      "outtarget": "minecraft:main",
+      "uniforms": [
+        {
+          "name": "Scale",
+          "values": [ 3.0 ]
+        },
+        {
+          "name": "FadeProgress",
+          "values": [ 1.0 ]
+        }
+      ]
+    },
+    {
+      "name": "kawase",
+      "intarget": "minecraft:main",
+      "outtarget": "swap",
+      "uniforms": [
+        {
+          "name": "Scale",
+          "values": [ 4.0 ]
+        },
+        {
+          "name": "FadeProgress",
+          "values": [ 1.0 ]
+        }
+      ]
+    },
+    {
+      "name": "kawase",
+      "intarget": "swap",
+      "outtarget": "minecraft:main",
+      "uniforms": [
+        {
+          "name": "Scale",
+          "values": [ 5.0 ]
+        },
+        {
+          "name": "FadeProgress",
+          "values": [ 1.0 ]
+        }
+      ]
+    },
+    {
+      "name": "kawase",
+      "intarget": "minecraft:main",
+      "outtarget": "swap",
+      "uniforms": [
+        {
+          "name": "Scale",
+          "values": [ 6.0 ]
+        },
+        {
+          "name": "FadeProgress",
+          "values": [ 1.0 ]
+        }
+      ]
+    },
+    {
+      "name": "blit",
+      "intarget": "swap",
+      "outtarget": "minecraft:main"
+    }
+  ]
+}
